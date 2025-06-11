@@ -23,3 +23,6 @@ class Logutil:
         self.logger.addHandler(sh)
         # 将处理器fh添加到日志记录器self.logger中
         self.logger.addHandler(fh)
+
+    def log(self):
+        return self.logger
