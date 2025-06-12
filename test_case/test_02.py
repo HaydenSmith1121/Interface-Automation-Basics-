@@ -105,4 +105,4 @@ class TestSeaFileCases:
 
 
 if __name__ == '__main__':
-    pytest.main(["-sv", "test_case.py"])
+    pytest.main(["-sv", "test_02.py"])

@@ -29,4 +29,4 @@ class TestAdd:
 
 
 if __name__ == '__main__':
-    pytest.main(["-sv", "my_test.py"])
+    pytest.main(["-sv", "test_01.py"])
