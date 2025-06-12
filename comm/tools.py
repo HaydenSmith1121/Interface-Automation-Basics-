@@ -1,3 +1,4 @@
+import csv
 import re
 
 
@@ -10,6 +11,7 @@ def get_str_by_re(left="\\A", right="\\Z", str="", flag=1):
     """
     result = re.search(left + "(.*?)" + right, str)
     return result.group(flag) if result else "没找到~"
+
 
 # 正则表达式的所有方法：
 #     re.match(pattern, string, flags=0)
@@ -37,3 +39,10 @@ def get_str_by_re(left="\\A", right="\\Z", str="", flag=1):
 #     re.X
 #     re.I
 #     re.X
+
+def get_csv_data(file_path):
+    with open(file_path, "r", encoding="utf-8") as f:
+        file = csv.reader(f)
+        date_list = [row for row in file]
+    return date_list
+
