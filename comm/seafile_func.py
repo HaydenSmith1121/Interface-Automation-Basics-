@@ -4,6 +4,8 @@
 
 import requests
 
+from comm.seafile_func_url import *
+
 
 # 登录函数
 def sea_file_login(username, password):
@@ -14,7 +16,7 @@ def sea_file_login(username, password):
     :return response: 响应对象
     """
     # 登录接口
-    url = "http://192.168.79.131:38000/api2/auth-token/"
+    url = host + login_path_1
     # 要传的登录头
     headers = {"content-type": "application/x-www-form-urlencoded"}
     # 要传的参数，用户名和密码
@@ -32,7 +34,7 @@ def sea_file_get_all_info(token):
     :return response: 响应对象
     """
     # 获取用户信息接口
-    url = "http://192.168.79.131:38000/api2/account/info/"
+    url = host + info_path_2
     # 要传的参数，token
     headers = {"authorization": "token " + token}
     # 返回响应对象
@@ -49,7 +51,7 @@ def sea_file_add_repo(token, repo_name):
     :return response: 响应对象
     """
     # 新增资料库接口
-    url = "http://192.168.79.131:38000/api2/repos/"
+    url = host + add_select_path_3_4
     # 要传的参数，token
     headers = {"authorization": "token " + token}
     body = {"name": repo_name}
@@ -66,7 +68,7 @@ def sea_file_get_all_repo(token):
     :return response: 响应对象
     """
     # 查询所有资料库接口
-    url = "http://192.168.79.131:38000/api2/repos/"
+    url = host + add_select_path_3_4
     # 要传的参数，token
     headers = {"authorization": "token " + token}
     # 返回响应对象
