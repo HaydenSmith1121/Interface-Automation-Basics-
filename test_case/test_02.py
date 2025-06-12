@@ -38,6 +38,17 @@ class TestSeaFileCases:
         # # 1.8获取删除文件响应对象
         # cls.response8 = sea_file_get_all_info(cls.token)
 
+    # 用例执行之前内容：每一个用例执行之前都会运行代码
+    @staticmethod
+    def setup_function():
+        print('开始去上班.......')
+
+    # 用例执行之后内容：每一个用例执行之后都会运行代码
+    @staticmethod
+    def teardown_function():
+        print('现在下班啦')
+        print('洗个脚，按个摩')
+
     # 1.1断言登录的响应码
     def test_sea_file_login_status_code(self):
         assert self.response1.status_code == 200
@@ -102,7 +113,3 @@ class TestSeaFileCases:
     # 1.7断言添加文件的响应体
     def test_sea_file_add_file_body(self):
         assert "modifier_email" in self.response7.text
-
-
-if __name__ == '__main__':
-    pytest.main(["-sv", "test_02.py"])
