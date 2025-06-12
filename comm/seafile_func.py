@@ -86,7 +86,7 @@ def sea_file_update_repo(token, repo_id, repo_name):
     :return response: 响应对象
     """
     # 修改资料库名字接口
-    url = f"http://192.168.79.131:38000/api2/repos/{repo_id}/?op=rename"
+    url = modify_delete_add_path_5_6_7_8(5, repo_id)
     # 要传的参数，token
     headers = {"authorization": "token " + token}
     # 要传的参数，新的资料库名字
@@ -105,7 +105,7 @@ def sea_file_delete_repo(token, repo_id):
     :return response: 响应对象
     """
     # 删除资料库接口
-    url = f"http://192.168.79.131:38000/api2/repos/{repo_id}/"
+    url = modify_delete_add_path_5_6_7_8(6, repo_id)
     # 要传的参数，token
     headers = {"authorization": "token " + token}
     # 返回响应对象
@@ -123,7 +123,7 @@ def sea_file_add_file(token, repo_id, file_name):
     :return response: 响应对象
     """
     # 新建文件接口
-    url = f"http://192.168.79.131:38000/api2/repos/{repo_id}/file/?p=/{file_name}&reloaddir=true"
+    url = modify_delete_add_path_5_6_7_8(7, repo_id, file_name)
     # 要传的参数，token
     headers = {"authorization": "token " + token}
     # 要传的参数，新建文件的操作类型
@@ -143,7 +143,7 @@ def sea_file_delete_file(token, repo_id, file_name):
     :return response: 响应对象
     """
     # 删除文件接口
-    url = f"http://192.168.79.131:38000/api2/repos/{repo_id}/file/?p=/{file_name}&reloaddir=true"
+    url = modify_delete_add_path_5_6_7_8(8, repo_id, file_name)
     # 要传的参数，token
     headers = {"authorization": "token " + token}
     # 返回响应对象
