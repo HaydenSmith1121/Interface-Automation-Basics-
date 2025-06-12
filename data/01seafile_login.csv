@@ -1,0 +1,5 @@
+seafile@admin.com,admin,200,token
+seafile@admin.com666,admin,400,Unable to login with provided credentials
+seafile@admin.com,admin666,400,Unable to login with provided credentials
+ ,admin,400,username
+seafile@admin.com, ,400,password
