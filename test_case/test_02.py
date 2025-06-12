@@ -37,17 +37,23 @@ class TestSeaFileCases:
         cls.response7 = sea_file_add_file(cls.token, cls.repo_id, "test.txt")
         # # 1.8获取删除文件响应对象
         # cls.response8 = sea_file_get_all_info(cls.token)
+        # 每一个类执行只运行一次
+        print('类中第一个方法用例执行之前会运行内容')
 
     # 用例执行之前内容：每一个用例执行之前都会运行代码
     @staticmethod
-    def setup_function():
+    def setup_method():
         print('开始去上班.......')
 
     # 用例执行之后内容：每一个用例执行之后都会运行代码
     @staticmethod
-    def teardown_function():
+    def teardown_method():
         print('现在下班啦')
         print('洗个脚，按个摩')
+
+    @staticmethod
+    def teardown_class():
+        print('类中最后一个方法用例执行之后会运行内容')
 
     # 1.1断言登录的响应码
     def test_sea_file_login_status_code(self):
