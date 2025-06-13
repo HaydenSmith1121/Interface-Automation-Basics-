@@ -40,7 +40,7 @@
 #     re.purge()
 #     re.error
 #
-from comm.tools import *
+from comm.re_tools import *
 from comm.sea_file_tools import *
 
 # 登录获取token

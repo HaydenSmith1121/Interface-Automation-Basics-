@@ -1,7 +1,7 @@
 import pytest
 
 from comm.sea_file_tools import *
-from comm.tools import get_csv_data
+from comm.re_tools import get_csv_data
 
 
 @pytest.mark.parametrize(["username", "password"], get_csv_data("data/seafile_login_data.csv"))

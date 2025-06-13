@@ -1,6 +1,6 @@
 import pytest
 
-from comm.tools import get_json_data
+from comm.re_tools import get_json_data
 
 
 @pytest.mark.parametrize(["x", "y"], get_json_data("./data/json_data.json"))

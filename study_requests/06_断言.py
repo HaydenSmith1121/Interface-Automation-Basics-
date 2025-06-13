@@ -1,6 +1,6 @@
 import pytest
 from comm.sea_file_tools import *
-from comm.tools import *
+from comm.re_tools import *
 
 resp = sea_file_1_1(username='seafile@admin.com', password='admin')
 

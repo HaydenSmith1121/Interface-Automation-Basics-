@@ -2,7 +2,7 @@ import allure
 import pytest
 
 from comm.sea_file_tools import *
-from comm.tools import get_csv_data
+from comm.re_tools import get_csv_data
 
 
 @allure.step("接口1（登录接口）的用例")
