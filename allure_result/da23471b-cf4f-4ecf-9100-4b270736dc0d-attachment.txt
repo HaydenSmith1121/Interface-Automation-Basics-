@@ -1,2 +1,0 @@
-WARNING  pytest_result_log:plugin.py:122 Start: test_case/test_07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-401-Invalid token]
-WARNING  pytest_result_log:plugin.py:128 End: test_case/test_07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-401-Invalid token]
