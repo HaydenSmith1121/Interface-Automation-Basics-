@@ -1,0 +1,3 @@
+WARNING  2025-06-13 13:50:06 [pytest_result_log:122] : ------------Start: test_case/test_11.py::test_sea_file_get_all_info-------------
+INFO     2025-06-13 13:50:06 [pytest_result_log:190] : test status is PASSED (test_case/test_11.py::test_sea_file_get_all_info): 
+WARNING  2025-06-13 13:50:06 [pytest_result_log:128] : -------------End: test_case/test_11.py::test_sea_file_get_all_info--------------
