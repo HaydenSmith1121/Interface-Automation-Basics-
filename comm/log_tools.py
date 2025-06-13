@@ -1,3 +1,7 @@
+"""
+    封装日志相关的工具
+"""
+
 import logging
 import colorlog
 

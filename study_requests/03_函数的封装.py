@@ -1,6 +1,6 @@
 # 详情在comm包下的seafile_func.py模块中
 # 导入写好的登录函数
-from comm.seafile_func import sea_file_login as l
+from comm.sea_file_tools import sea_file_1_1 as l
 
 # r = l("seafile@admin.com", "admin")
 # 设置编码格式为UTF-8
