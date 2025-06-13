@@ -2,11 +2,11 @@ import allure
 import pytest
 
 from comm.sea_file_tools import *
-from comm.re_tools import get_csv_data
+from comm.get_data_tools import *
 
 
 @allure.step("接口1（登录接口）的用例")
-@pytest.mark.parametrize(["username", "password", "code", "msg"], get_csv_data("./data/01seafile_login.csv"))
+@pytest.mark.parametrize(["username", "password", "code", "msg"], get_csv_data("./data/01seafile.csv"))
 def test_sea_file_login(username, password, code, msg):
     allure.attach("登录", "步骤01")
     response = sea_file_1_1(username, password)
@@ -19,7 +19,7 @@ def test_sea_file_login(username, password, code, msg):
 
 
 @allure.step("接口2（获取用户信息接口）的用例")
-@pytest.mark.parametrize(["token", "code", "msg"], get_csv_data("./data/02seafile_info.csv"))
+@pytest.mark.parametrize(["token", "code", "msg"], get_csv_data("./data/02seafile.csv"))
 def test_sea_file_info(token, code, msg):
     allure.attach("获取token值", "步骤01")
     response = sea_file_1_2(token)
@@ -31,7 +31,7 @@ def test_sea_file_info(token, code, msg):
     assert msg in response.text
 
 
-@pytest.mark.parametrize(["token", "repo_name", "code", "msg"], get_csv_data("./data/03seafile_add_repo.csv"))
+@pytest.mark.parametrize(["token", "repo_name", "code", "msg"], get_csv_data("./data/03seafile.csv"))
 def test_sea_file_add_repo(token, repo_name, code, msg):
     response = sea_file_1_3(token, "test_repo")
     a = eval(code)
@@ -39,9 +39,17 @@ def test_sea_file_add_repo(token, repo_name, code, msg):
     assert msg in response.text
 
 
-@pytest.mark.parametrize(["token", "code", "msg"], get_csv_data("./data/04seafile_get_all_repo.csv"))
+@pytest.mark.parametrize(["token", "code", "msg"], get_csv_data("./data/04seafile.csv"))
 def test_sea_file_get_repo_info(token, code, msg):
     response = sea_file_1_4(token)
+    a = eval(code)
+    assert response.status_code == a
+    assert msg in response.text
+
+
+@pytest.mark.parametrize(["token", "repo_id", "repo_name", "code", "msg"], get_csv_data("./data/05seafile.csv"))
+def test_sea_file_1_5(token, repo_id, repo_name, code, msg):
+    response = sea_file_1_5(token, repo_id, repo_name)
     a = eval(code)
     assert response.status_code == a
     assert msg in response.text

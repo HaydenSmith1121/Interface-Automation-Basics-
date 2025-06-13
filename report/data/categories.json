@@ -4,73 +4,85 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: assert 200 == (200 + 1)\n +  where 200 = <Response [200]>.status_code",
+      "name" : "AssertionError: assert 404 == 200\n +  where 404 = <Response [404]>.status_code",
       "children" : [ {
-        "name" : "test_sea_file_login[seafile@admin.com-admin-200-token]",
-        "uid" : "bdc0a103f95614a6",
-        "parentUid" : "00773346a37369571eb27f27c1f09bcf",
+        "name" : "test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770-1-200-success]",
+        "uid" : "54ced708afb15869",
+        "parentUid" : "df7705a0aab3c19c785a3eb6d8832e60",
         "status" : "failed",
         "time" : {
-          "start" : 1749804840797,
-          "stop" : 1749804840823,
-          "duration" : 26
+          "start" : 1749818207990,
+          "stop" : 1749818207999,
+          "duration" : 9
         },
         "flaky" : false,
-        "parameters" : [ "'200'", "'token'", "'admin'", "'seafile@admin.com'" ]
-      } ],
-      "uid" : "00773346a37369571eb27f27c1f09bcf"
-    }, {
-      "name" : "AssertionError: assert 400 == (400 + 1)\n +  where 400 = <Response [400]>.status_code",
-      "children" : [ {
-        "name" : "test_sea_file_login[seafile@admin.com666-admin-400-Unable to login with provided credentials]",
-        "uid" : "21657a9d2e094e1d",
-        "parentUid" : "46cd69862e0e2d34f9573c210d0ed9e2",
+        "parameters" : [ "'200'", "'success'", "'ef23029e-eec3-4f87-851a-db54e66b9770'", "'1'", "'8ac00e05a7652b31598a56d764bd5b5f7c45a6ef'" ]
+      }, {
+        "name" : "test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770-255111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success]",
+        "uid" : "db2c3c919a20dcf1",
+        "parentUid" : "df7705a0aab3c19c785a3eb6d8832e60",
         "status" : "failed",
         "time" : {
-          "start" : 1749804840905,
-          "stop" : 1749804840916,
+          "start" : 1749818208078,
+          "stop" : 1749818208089,
           "duration" : 11
         },
         "flaky" : false,
-        "parameters" : [ "'400'", "'Unable to login with provided credentials'", "'admin'", "'seafile@admin.com666'" ]
+        "parameters" : [ "'200'", "'success'", "'ef23029e-eec3-4f87-851a-db54e66b9770'", "'255111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255'", "'8ac00e05a7652b31598a56d764bd5b5f7c45a6ef'" ]
       }, {
-        "name" : "test_sea_file_login[seafile@admin.com-admin666-400-Unable to login with provided credentials]",
-        "uid" : "94b49561701a49db",
-        "parentUid" : "46cd69862e0e2d34f9573c210d0ed9e2",
+        "name" : "test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770--200-name]",
+        "uid" : "f5f9318baf82fc7e",
+        "parentUid" : "df7705a0aab3c19c785a3eb6d8832e60",
         "status" : "failed",
         "time" : {
-          "start" : 1749804840922,
-          "stop" : 1749804840939,
-          "duration" : 17
+          "start" : 1749818208095,
+          "stop" : 1749818208105,
+          "duration" : 10
         },
         "flaky" : false,
-        "parameters" : [ "'400'", "'Unable to login with provided credentials'", "'admin666'", "'seafile@admin.com'" ]
-      }, {
-        "name" : "test_sea_file_login[ -admin-400-username]",
-        "uid" : "b4d630bb52967335",
-        "parentUid" : "46cd69862e0e2d34f9573c210d0ed9e2",
+        "parameters" : [ "'200'", "'name'", "'ef23029e-eec3-4f87-851a-db54e66b9770'", "''", "'8ac00e05a7652b31598a56d764bd5b5f7c45a6ef'" ]
+      } ],
+      "uid" : "df7705a0aab3c19c785a3eb6d8832e60"
+    }, {
+      "name" : "AssertionError: assert 401 == 200\n +  where 401 = <Response [401]>.status_code",
+      "children" : [ {
+        "name" : "test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-ef23029e-eec3-4f87-851a-db54e66b9770-1-200-token]",
+        "uid" : "6eba317fcab12acc",
+        "parentUid" : "da4456b57aef3095c52adf94570fd943",
         "status" : "failed",
         "time" : {
-          "start" : 1749804840946,
-          "stop" : 1749804840953,
-          "duration" : 7
-        },
-        "flaky" : false,
-        "parameters" : [ "'400'", "'username'", "'admin'", "' '" ]
-      }, {
-        "name" : "test_sea_file_login[seafile@admin.com- -400-password]",
-        "uid" : "5b4a2713cdd7348c",
-        "parentUid" : "46cd69862e0e2d34f9573c210d0ed9e2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1749804840961,
-          "stop" : 1749804840969,
+          "start" : 1749818208114,
+          "stop" : 1749818208122,
           "duration" : 8
         },
         "flaky" : false,
-        "parameters" : [ "'400'", "'password'", "' '", "'seafile@admin.com'" ]
+        "parameters" : [ "'200'", "'token'", "'ef23029e-eec3-4f87-851a-db54e66b9770'", "'1'", "'8ac00e05a7652b31598a56d764bd5b5f7c45a6e'" ]
+      }, {
+        "name" : "test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-ef23029e-eec3-4f87-851a-db54e66b9770-255111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success]",
+        "uid" : "6ba84bb0aa324c32",
+        "parentUid" : "da4456b57aef3095c52adf94570fd943",
+        "status" : "failed",
+        "time" : {
+          "start" : 1749818208131,
+          "stop" : 1749818208139,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "parameters" : [ "'200'", "'success'", "'ef23029e-eec3-4f87-851a-db54e66b9770'", "'255111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255'", "'8ac00e05a7652b31598a56d764bd5b5f7c45a6e'" ]
+      }, {
+        "name" : "test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-ef23029e-eec3-4f87-851a-db54e66b9770--200-success]",
+        "uid" : "f9adb2fb178dba2d",
+        "parentUid" : "da4456b57aef3095c52adf94570fd943",
+        "status" : "failed",
+        "time" : {
+          "start" : 1749818208148,
+          "stop" : 1749818208156,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "parameters" : [ "'200'", "'success'", "'ef23029e-eec3-4f87-851a-db54e66b9770'", "''", "'8ac00e05a7652b31598a56d764bd5b5f7c45a6e'" ]
       } ],
-      "uid" : "46cd69862e0e2d34f9573c210d0ed9e2"
+      "uid" : "da4456b57aef3095c52adf94570fd943"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

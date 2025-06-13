@@ -1,0 +1,125 @@
+{
+  "uid" : "7201a4cdcb36972f",
+  "name" : "test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-name]",
+  "fullName" : "test_case.test_07#test_sea_file_info",
+  "historyId" : "e77e3ac7b33be99bbf3849782bf554a0",
+  "time" : {
+    "start" : 1749818207598,
+    "stop" : 1749818207637,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "接口2（获取用户信息接口）的用例",
+      "time" : {
+        "start" : 1749818207598,
+        "stop" : 1749818207637,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "396a99ca6acaf010",
+        "name" : "步骤01",
+        "source" : "396a99ca6acaf010.attach",
+        "type" : "text/plain",
+        "size" : 14
+      }, {
+        "uid" : "cfee0cb57e1657ac",
+        "name" : "步骤02",
+        "source" : "cfee0cb57e1657ac.attach",
+        "type" : "text/plain",
+        "size" : 52
+      }, {
+        "uid" : "bd7f16099b0ac0a6",
+        "name" : "步骤03",
+        "source" : "bd7f16099b0ac0a6.attach",
+        "type" : "text/plain",
+        "size" : 33
+      }, {
+        "uid" : "4ff70ace10656532",
+        "name" : "步骤04",
+        "source" : "4ff70ace10656532.attach",
+        "type" : "text/plain",
+        "size" : 33
+      } ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "'8ac00e05a7652b31598a56d764bd5b5f7c45a6ef'"
+      }, {
+        "name" : "code",
+        "value" : "'200'"
+      }, {
+        "name" : "msg",
+        "value" : "'name'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4
+    } ],
+    "attachments" : [ {
+      "uid" : "fdac4fdb0f484f0a",
+      "name" : "log",
+      "source" : "fdac4fdb0f484f0a.txt",
+      "type" : "text/plain",
+      "size" : 277
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_07"
+  }, {
+    "name" : "host",
+    "value" : "stu001243"
+  }, {
+    "name" : "thread",
+    "value" : "17232-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_07"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'200'"
+  }, {
+    "name" : "msg",
+    "value" : "'name'"
+  }, {
+    "name" : "token",
+    "value" : "'8ac00e05a7652b31598a56d764bd5b5f7c45a6ef'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7201a4cdcb36972f.json",
+  "parameterValues" : [ "'200'", "'name'", "'8ac00e05a7652b31598a56d764bd5b5f7c45a6ef'" ]
+}
