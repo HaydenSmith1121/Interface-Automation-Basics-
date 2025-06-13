@@ -28,3 +28,19 @@ def test_sea_file_add_repo(token, repo_name, code, msg):
     a = eval(code)
     assert response.status_code == a
     assert msg in response.text
+
+
+rs = sea_file_add_repo('8ac00e05a7652b31598a56d764bd5b5f7c45a6ef', "name")
+# print(rs.json()["repo_id"])
+repo_id = rs.json()['repo_id']
+response = sea_file_update_repo('8ac00e05a7652b31598a56d764bd5b5f7c45a6ef', repo_id, "aaa")
+print(response.text)
+
+
+#
+# # "------------------------------------------------------------"
+@pytest.mark.parametrize(['token', 'code', 'name', 'result'], get_csv_data("./data/05seafile_update_repo.csv"))
+def test_sea_file_update_repo(token, code, name, result):
+    # response = sea_file_update_repo(token, repo_id, name)
+    assert response.status_code == int(code)
+    assert result in response.text
