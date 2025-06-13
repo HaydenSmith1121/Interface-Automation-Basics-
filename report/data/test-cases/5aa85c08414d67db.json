@@ -1,0 +1,125 @@
+{
+  "uid" : "5aa85c08414d67db",
+  "name" : "test_sea_file_info[-401-Invalid token header. No credentials provided.]",
+  "fullName" : "test_case.test_07#test_sea_file_info",
+  "historyId" : "fcecb660da292f6d6ecb6b9541992b22",
+  "time" : {
+    "start" : 1749804841004,
+    "stop" : 1749804841012,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "接口2（获取用户信息接口）的用例",
+      "time" : {
+        "start" : 1749804841004,
+        "stop" : 1749804841012,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef109b933e3c679c",
+        "name" : "步骤01",
+        "source" : "ef109b933e3c679c.attach",
+        "type" : "text/plain",
+        "size" : 14
+      }, {
+        "uid" : "3e1d2f06836f45d7",
+        "name" : "步骤02",
+        "source" : "3e1d2f06836f45d7.attach",
+        "type" : "text/plain",
+        "size" : 52
+      }, {
+        "uid" : "9fbce987e2f413b5",
+        "name" : "步骤03",
+        "source" : "9fbce987e2f413b5.attach",
+        "type" : "text/plain",
+        "size" : 33
+      }, {
+        "uid" : "48add55b2f25887e",
+        "name" : "步骤04",
+        "source" : "48add55b2f25887e.attach",
+        "type" : "text/plain",
+        "size" : 33
+      } ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "''"
+      }, {
+        "name" : "code",
+        "value" : "'401'"
+      }, {
+        "name" : "msg",
+        "value" : "'Invalid token header. No credentials provided.'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4
+    } ],
+    "attachments" : [ {
+      "uid" : "17f6442b50b31daa",
+      "name" : "log",
+      "source" : "17f6442b50b31daa.txt",
+      "type" : "text/plain",
+      "size" : 281
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_07"
+  }, {
+    "name" : "host",
+    "value" : "stu001243"
+  }, {
+    "name" : "thread",
+    "value" : "17100-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_07"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'401'"
+  }, {
+    "name" : "msg",
+    "value" : "'Invalid token header. No credentials provided.'"
+  }, {
+    "name" : "token",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5aa85c08414d67db.json",
+  "parameterValues" : [ "'401'", "'Invalid token header. No credentials provided.'", "''" ]
+}

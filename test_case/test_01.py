@@ -1,6 +1,6 @@
 import pytest
 
-from comm.log_util import *
+from comm.log_tools import *
 from test_source.add import *
 
 

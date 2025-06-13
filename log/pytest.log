@@ -1,3 +1,119 @@
-WARNING  2025-06-13 13:50:06 [pytest_result_log:122] : ------------Start: test_case/test_11.py::test_sea_file_get_all_info-------------
-INFO     2025-06-13 13:50:06 [pytest_result_log:190] : test status is PASSED (test_case/test_11.py::test_sea_file_get_all_info): 
-WARNING  2025-06-13 13:50:06 [pytest_result_log:128] : -------------End: test_case/test_11.py::test_sea_file_get_all_info--------------
+WARNING  2025-06-13 16:54:00 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin-200-token]
+ERROR    2025-06-13 16:54:00 [pytest_result_log:190] : test status is FAILED (test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin-200-token]): AssertionError
+INFO     2025-06-13 16:54:00 [pytest_result_log:194] : test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin-200-token] -> username = 'seafile@admin.com', password = 'admin', code = '200', msg = 'token'
+
+    @allure.step("接口1（登录接口）的用例")
+    @pytest.mark.parametrize(["username", "password", "code", "msg"], get_csv_data("./data/01seafile_login.csv"))
+    def test_sea_file_login(username, password, code, msg):
+        allure.attach("登录", "步骤01")
+        response = sea_file_login(username, password)
+        allure.attach("将输入的csv里面的code类型从str转化成int", "步骤02")
+        a = eval(code)
+        allure.attach("断言状态码是否符合预期", "步骤03")
+>       assert response.status_code == a+1
+E       assert 200 == (200 + 1)
+E        +  where 200 = <Response [200]>.status_code
+
+test_case\test_07.py:16: AssertionError
+WARNING  2025-06-13 16:54:00 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin-200-token]
+WARNING  2025-06-13 16:54:00 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_login[seafile@admin.com666-admin-400-Unable to login with provided credentials]
+ERROR    2025-06-13 16:54:00 [pytest_result_log:190] : test status is FAILED (test_case/test_07.py::test_sea_file_login[seafile@admin.com666-admin-400-Unable to login with provided credentials]): AssertionError
+INFO     2025-06-13 16:54:00 [pytest_result_log:194] : test_case/test_07.py::test_sea_file_login[seafile@admin.com666-admin-400-Unable to login with provided credentials] -> username = 'seafile@admin.com666', password = 'admin', code = '400'
+msg = 'Unable to login with provided credentials'
+
+    @allure.step("接口1（登录接口）的用例")
+    @pytest.mark.parametrize(["username", "password", "code", "msg"], get_csv_data("./data/01seafile_login.csv"))
+    def test_sea_file_login(username, password, code, msg):
+        allure.attach("登录", "步骤01")
+        response = sea_file_login(username, password)
+        allure.attach("将输入的csv里面的code类型从str转化成int", "步骤02")
+        a = eval(code)
+        allure.attach("断言状态码是否符合预期", "步骤03")
+>       assert response.status_code == a+1
+E       assert 400 == (400 + 1)
+E        +  where 400 = <Response [400]>.status_code
+
+test_case\test_07.py:16: AssertionError
+WARNING  2025-06-13 16:54:00 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_login[seafile@admin.com666-admin-400-Unable to login with provided credentials]
+WARNING  2025-06-13 16:54:00 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin666-400-Unable to login with provided credentials]
+ERROR    2025-06-13 16:54:00 [pytest_result_log:190] : test status is FAILED (test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin666-400-Unable to login with provided credentials]): AssertionError
+INFO     2025-06-13 16:54:00 [pytest_result_log:194] : test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin666-400-Unable to login with provided credentials] -> username = 'seafile@admin.com', password = 'admin666', code = '400'
+msg = 'Unable to login with provided credentials'
+
+    @allure.step("接口1（登录接口）的用例")
+    @pytest.mark.parametrize(["username", "password", "code", "msg"], get_csv_data("./data/01seafile_login.csv"))
+    def test_sea_file_login(username, password, code, msg):
+        allure.attach("登录", "步骤01")
+        response = sea_file_login(username, password)
+        allure.attach("将输入的csv里面的code类型从str转化成int", "步骤02")
+        a = eval(code)
+        allure.attach("断言状态码是否符合预期", "步骤03")
+>       assert response.status_code == a+1
+E       assert 400 == (400 + 1)
+E        +  where 400 = <Response [400]>.status_code
+
+test_case\test_07.py:16: AssertionError
+WARNING  2025-06-13 16:54:00 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin666-400-Unable to login with provided credentials]
+WARNING  2025-06-13 16:54:00 [pytest_result_log:122] : -----Start: test_case/test_07.py::test_sea_file_login[ -admin-400-username]-----
+ERROR    2025-06-13 16:54:00 [pytest_result_log:190] : test status is FAILED (test_case/test_07.py::test_sea_file_login[ -admin-400-username]): AssertionError
+INFO     2025-06-13 16:54:00 [pytest_result_log:194] : test_case/test_07.py::test_sea_file_login[ -admin-400-username] -> username = ' ', password = 'admin', code = '400', msg = 'username'
+
+    @allure.step("接口1（登录接口）的用例")
+    @pytest.mark.parametrize(["username", "password", "code", "msg"], get_csv_data("./data/01seafile_login.csv"))
+    def test_sea_file_login(username, password, code, msg):
+        allure.attach("登录", "步骤01")
+        response = sea_file_login(username, password)
+        allure.attach("将输入的csv里面的code类型从str转化成int", "步骤02")
+        a = eval(code)
+        allure.attach("断言状态码是否符合预期", "步骤03")
+>       assert response.status_code == a+1
+E       assert 400 == (400 + 1)
+E        +  where 400 = <Response [400]>.status_code
+
+test_case\test_07.py:16: AssertionError
+WARNING  2025-06-13 16:54:00 [pytest_result_log:128] : ------End: test_case/test_07.py::test_sea_file_login[ -admin-400-username]------
+WARNING  2025-06-13 16:54:00 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_login[seafile@admin.com- -400-password]
+ERROR    2025-06-13 16:54:00 [pytest_result_log:190] : test status is FAILED (test_case/test_07.py::test_sea_file_login[seafile@admin.com- -400-password]): AssertionError
+INFO     2025-06-13 16:54:00 [pytest_result_log:194] : test_case/test_07.py::test_sea_file_login[seafile@admin.com- -400-password] -> username = 'seafile@admin.com', password = ' ', code = '400', msg = 'password'
+
+    @allure.step("接口1（登录接口）的用例")
+    @pytest.mark.parametrize(["username", "password", "code", "msg"], get_csv_data("./data/01seafile_login.csv"))
+    def test_sea_file_login(username, password, code, msg):
+        allure.attach("登录", "步骤01")
+        response = sea_file_login(username, password)
+        allure.attach("将输入的csv里面的code类型从str转化成int", "步骤02")
+        a = eval(code)
+        allure.attach("断言状态码是否符合预期", "步骤03")
+>       assert response.status_code == a+1
+E       assert 400 == (400 + 1)
+E        +  where 400 = <Response [400]>.status_code
+
+test_case\test_07.py:16: AssertionError
+WARNING  2025-06-13 16:54:00 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_login[seafile@admin.com- -400-password]
+WARNING  2025-06-13 16:54:00 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-name]
+INFO     2025-06-13 16:54:00 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-name]): 
+WARNING  2025-06-13 16:54:00 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-name]
+WARNING  2025-06-13 16:54:00 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-401-Invalid token]
+INFO     2025-06-13 16:54:01 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-401-Invalid token]): 
+WARNING  2025-06-13 16:54:01 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-401-Invalid token]
+WARNING  2025-06-13 16:54:01 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_info[-401-Invalid token header. No credentials provided.]
+INFO     2025-06-13 16:54:01 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_info[-401-Invalid token header. No credentials provided.]): 
+WARNING  2025-06-13 16:54:01 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_info[-401-Invalid token header. No credentials provided.]
+WARNING  2025-06-13 16:54:01 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-a1-200-name]
+INFO     2025-06-13 16:54:01 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-a1-200-name]): 
+WARNING  2025-06-13 16:54:01 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-a1-200-name]
+WARNING  2025-06-13 16:54:01 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-a2-401-Invalid token]
+INFO     2025-06-13 16:54:01 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-a2-401-Invalid token]): 
+WARNING  2025-06-13 16:54:01 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-a2-401-Invalid token]
+WARNING  2025-06-13 16:54:01 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_add_repo[-a3-401-Invalid token header. No credentials provided.]
+INFO     2025-06-13 16:54:01 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_add_repo[-a3-401-Invalid token header. No credentials provided.]): 
+WARNING  2025-06-13 16:54:01 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_add_repo[-a3-401-Invalid token header. No credentials provided.]
+WARNING  2025-06-13 16:54:01 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-]
+INFO     2025-06-13 16:54:01 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-]): 
+WARNING  2025-06-13 16:54:01 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-]
+WARNING  2025-06-13 16:54:01 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-401-]
+INFO     2025-06-13 16:54:01 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-401-]): 
+WARNING  2025-06-13 16:54:01 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-401-]
+WARNING  2025-06-13 16:54:01 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_get_repo_info[-401-Invalid token header. No credentials provided.]
+INFO     2025-06-13 16:54:01 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_get_repo_info[-401-Invalid token header. No credentials provided.]): 
+WARNING  2025-06-13 16:54:01 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_get_repo_info[-401-Invalid token header. No credentials provided.]

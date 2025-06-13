@@ -1,8 +1,8 @@
 import pytest
-from comm.seafile_func import *
+from comm.sea_file_tools import *
 from comm.tools import *
 
-resp = sea_file_login(username='seafile@admin.com', password='admin')
+resp = sea_file_1_1(username='seafile@admin.com', password='admin')
 
 
 # 1.断言响应头
@@ -31,7 +31,7 @@ def test_sea_file_login_elapsed_time():
     assert 200 / 1000 >= resp.elapsed.total_seconds()
 
 
-resp1 = sea_file_get_all_info(token=resp.json().get('token'))
+resp1 = sea_file_1_2(token=resp.json().get('token'))
 
 
 # 6.断言响应头

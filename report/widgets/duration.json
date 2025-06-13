@@ -1,0 +1,141 @@
+[ {
+  "uid" : "5aa85c08414d67db",
+  "name" : "test_sea_file_info[-401-Invalid token header. No credentials provided.]",
+  "time" : {
+    "start" : 1749804841004,
+    "stop" : 1749804841012,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fbc123fba900e6a",
+  "name" : "test_sea_file_get_repo_info[-401-Invalid token header. No credentials provided.]",
+  "time" : {
+    "start" : 1749804841094,
+    "stop" : 1749804841099,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94b49561701a49db",
+  "name" : "test_sea_file_login[seafile@admin.com-admin666-400-Unable to login with provided credentials]",
+  "time" : {
+    "start" : 1749804840922,
+    "stop" : 1749804840939,
+    "duration" : 17
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4d630bb52967335",
+  "name" : "test_sea_file_login[ -admin-400-username]",
+  "time" : {
+    "start" : 1749804840946,
+    "stop" : 1749804840953,
+    "duration" : 7
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9fb19c723bc0968",
+  "name" : "test_sea_file_add_repo[-a3-401-Invalid token header. No credentials provided.]",
+  "time" : {
+    "start" : 1749804841050,
+    "stop" : 1749804841057,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cf317eb71274eb8",
+  "name" : "test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-401-Invalid token]",
+  "time" : {
+    "start" : 1749804840992,
+    "stop" : 1749804841000,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d69ef3a521e7344",
+  "name" : "test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-a2-401-Invalid token]",
+  "time" : {
+    "start" : 1749804841038,
+    "stop" : 1749804841046,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e31ccf716ace12af",
+  "name" : "test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-]",
+  "time" : {
+    "start" : 1749804841061,
+    "stop" : 1749804841079,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fa6b2079cf89b61",
+  "name" : "test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-401-]",
+  "time" : {
+    "start" : 1749804841083,
+    "stop" : 1749804841090,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ec82dd6d2b627d",
+  "name" : "test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-a1-200-name]",
+  "time" : {
+    "start" : 1749804841016,
+    "stop" : 1749804841034,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21657a9d2e094e1d",
+  "name" : "test_sea_file_login[seafile@admin.com666-admin-400-Unable to login with provided credentials]",
+  "time" : {
+    "start" : 1749804840905,
+    "stop" : 1749804840916,
+    "duration" : 11
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdc0a103f95614a6",
+  "name" : "test_sea_file_login[seafile@admin.com-admin-200-token]",
+  "time" : {
+    "start" : 1749804840797,
+    "stop" : 1749804840823,
+    "duration" : 26
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4012f0f454b695b5",
+  "name" : "test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-name]",
+  "time" : {
+    "start" : 1749804840976,
+    "stop" : 1749804840988,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b4a2713cdd7348c",
+  "name" : "test_sea_file_login[seafile@admin.com- -400-password]",
+  "time" : {
+    "start" : 1749804840961,
+    "stop" : 1749804840969,
+    "duration" : 8
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

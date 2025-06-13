@@ -1,0 +1,2 @@
+WARNING  pytest_result_log:plugin.py:122 -----Start: test_case/test_07.py::test_sea_file_login[ -admin-400-username]-----
+WARNING  pytest_result_log:plugin.py:128 ------End: test_case/test_07.py::test_sea_file_login[ -admin-400-username]------

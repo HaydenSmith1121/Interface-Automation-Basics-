@@ -41,10 +41,10 @@
 #     re.error
 #
 from comm.tools import *
-from comm.seafile_func import *
+from comm.sea_file_tools import *
 
 # 登录获取token
-r = sea_file_login("seafile@admin.com", "admin")
+r = sea_file_1_1("seafile@admin.com", "admin")
 
 # 使用正则表达式获取token值
 token = get_str_by_re('":"', '"', f'{r.text}')
@@ -52,7 +52,7 @@ token = get_str_by_re('":"', '"', f'{r.text}')
 token1 = r.json()["token"]
 
 # 获取账号信息
-info = sea_file_get_all_info(token1)
+info = sea_file_1_2(token1)
 
 # # 正则表达式练习
 # s2 = "'Content-Length': '237', 'Content-Type': 'application/json'"

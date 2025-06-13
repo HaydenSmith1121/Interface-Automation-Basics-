@@ -1,6 +1,6 @@
 import pytest
 
-from comm.seafile_func import *
+from comm.sea_file_tools import *
 
 
 @pytest.fixture
@@ -26,4 +26,4 @@ def func3():
 
 @pytest.fixture
 def func4():
-    yield sea_file_login("seafile@admin.com", "admin").json()["token"]
+    yield sea_file_1_1("seafile@admin.com", "admin").json()["token"]

@@ -1,6 +1,6 @@
 import pytest
 
-from comm.seafile_func import *
+from comm.sea_file_tools import *
 
 
 class TestSeaFileCases:
@@ -18,23 +18,23 @@ class TestSeaFileCases:
     @classmethod
     def setup_class(cls):
         # 1.1获取登录的响应对象
-        cls.response1 = sea_file_login("seafile@admin.com", "admin")
+        cls.response1 = sea_file_1_1("seafile@admin.com", "admin")
         # 获取登录的token
         cls.token = cls.response1.json()["token"]
         # 1.2获取响应的用户信息对象
-        cls.response2 = sea_file_get_all_info(cls.token)
+        cls.response2 = sea_file_1_2(cls.token)
         # 1.3获取新增资料库响应对象
-        cls.response3 = sea_file_add_repo(cls.token, "test_repo")
+        cls.response3 = sea_file_1_3(cls.token, "test_repo")
         # 获取最新的资料库id
-        cls.repo_id = sea_file_get_all_repo(cls.token).json()[0]["id"]
+        cls.repo_id = sea_file_1_4(cls.token).json()[0]["id"]
         # 1.4获取所有资料库的响应对象
-        cls.response4 = sea_file_get_all_repo(cls.token)
+        cls.response4 = sea_file_1_4(cls.token)
         # 1.5获取修改资料库的响应对象
-        cls.response5 = sea_file_update_repo(cls.token, cls.repo_id, "new_test_repo")
+        cls.response5 = sea_file_1_5(cls.token, cls.repo_id, "new_test_repo")
         # # 1.6获取删除资料库的响应对象
         # cls.response6 = sea_file_delete_repo(cls.token, cls.repo_id)
         # 1.7获取新建文件响应对象
-        cls.response7 = sea_file_add_file(cls.token, cls.repo_id, "test.txt")
+        cls.response7 = sea_file_1_7(cls.token, cls.repo_id, "test.txt")
         # # 1.8获取删除文件响应对象
         # cls.response8 = sea_file_get_all_info(cls.token)
         # 每一个类执行只运行一次
