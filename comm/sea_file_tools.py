@@ -1,14 +1,14 @@
 """
-    封装 SeaFile 的接口相关的函数
+    封装 SeaFile 接口相关的函数
 """
 
 import requests
 
-from comm.seafile_func_url import *
+from comm.sea_file_url_tools import *
 
 
 # 登录函数
-def sea_file_login(username, password):
+def sea_file_1_1(username, password):
     """
     输入用户名和密码，返回登录响应
     :param username: 用户名
@@ -27,7 +27,7 @@ def sea_file_login(username, password):
 
 
 # 获取用户信息
-def sea_file_get_all_info(token):
+def sea_file_1_2(token):
     """
     输入获取到的token，获取用户信息
     :param token: 登录后获取的token值
@@ -43,7 +43,7 @@ def sea_file_get_all_info(token):
 
 
 # 新增资料库
-def sea_file_add_repo(token, repo_name):
+def sea_file_1_3(token, repo_name):
     """
     输入获取到的token，和资料库的名字，新增资料库
     :param token: 登录后获取的token值
@@ -61,7 +61,7 @@ def sea_file_add_repo(token, repo_name):
 
 
 # 查询所有资料库
-def sea_file_get_all_repo(token):
+def sea_file_1_4(token):
     """
     输入获取到的token，查询所有资料库
     :param token: 登录后获取的token值
@@ -77,7 +77,7 @@ def sea_file_get_all_repo(token):
 
 
 # 修改资料库的名字
-def sea_file_update_repo(token, repo_id, repo_name):
+def sea_file_1_5(token, repo_id, repo_name):
     """
     输入获取到的token值，要修改的资料库的id值，和新的资料库名字
     :param token: 登录后获取的token值
@@ -97,7 +97,7 @@ def sea_file_update_repo(token, repo_id, repo_name):
 
 
 # 删除指定的资料库
-def sea_file_delete_repo(token, repo_id):
+def sea_file_1_6(token, repo_id):
     """
     输入获取到的token值和要删除的资料库id，删除资料库
     :param token: 登录后获取的token值
@@ -114,7 +114,7 @@ def sea_file_delete_repo(token, repo_id):
 
 
 # 在指定的资料库目录新建文件
-def sea_file_add_file(token, repo_id, file_name):
+def sea_file_1_7(token, repo_id, file_name):
     """
     输入获取到的token值，指定的资料库id，和要新建的文件名字
     :param token: 登录后获取的token值
@@ -134,7 +134,7 @@ def sea_file_add_file(token, repo_id, file_name):
 
 
 # 在指定的资料库目录删除文件
-def sea_file_delete_file(token, repo_id, file_name):
+def sea_file_1_8(token, repo_id, file_name):
     """
     输入获取到的token值，指定的资料库id，和要删除的文件名字
     :param token: 登录后获取的token值
