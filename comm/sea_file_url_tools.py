@@ -1,4 +1,4 @@
-host = 'http://172.31.52.55:38000/'
+host = 'http://192.168.79.133:38000/'
 login_path_1 = 'api2/auth-token/'
 info_path_2 = 'api2/account/info/'
 add_select_path_3_4 = 'api2/repos/'

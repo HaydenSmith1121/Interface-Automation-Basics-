@@ -1,2 +1,0 @@
-WARNING  pytest_result_log:plugin.py:122 Start: test_case/test_07.py::test_sea_file_get_repo_info[-401-Invalid token header. No credentials provided.]
-WARNING  pytest_result_log:plugin.py:128 End: test_case/test_07.py::test_sea_file_get_repo_info[-401-Invalid token header. No credentials provided.]

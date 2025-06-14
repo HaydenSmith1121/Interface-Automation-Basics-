@@ -1,13 +1,13 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "86abcc46617c603d802c3e378b13740e",
-    "name" : "test_case",
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+    "name" : "testcase",
     "statistic" : {
-      "failed" : 6,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 17,
       "unknown" : 0,
       "total" : 20
     }

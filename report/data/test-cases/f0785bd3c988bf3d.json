@@ -1,0 +1,80 @@
+{
+  "uid" : "f0785bd3c988bf3d",
+  "name" : "test_sea_file_add_repo[-a3-401-Invalid token header. No credentials provided.]",
+  "fullName" : "testcase.test07#test_sea_file_add_repo",
+  "historyId" : "5ccc1183816481ad771e06b56bdd6baf",
+  "time" : {
+    "start" : 1749862961001,
+    "stop" : 1749862961006,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dff15bd5604cc7cf",
+      "name" : "log",
+      "source" : "dff15bd5604cc7cf.txt",
+      "type" : "text/plain",
+      "size" : 291
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test07"
+  }, {
+    "name" : "host",
+    "value" : "stu001243"
+  }, {
+    "name" : "thread",
+    "value" : "3420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test07"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'401'"
+  }, {
+    "name" : "msg",
+    "value" : "'Invalid token header. No credentials provided.'"
+  }, {
+    "name" : "repo_name",
+    "value" : "'a3'"
+  }, {
+    "name" : "token",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0785bd3c988bf3d.json",
+  "parameterValues" : [ "'401'", "'Invalid token header. No credentials provided.'", "'a3'", "''" ]
+}

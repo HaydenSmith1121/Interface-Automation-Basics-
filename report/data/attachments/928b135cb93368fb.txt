@@ -1,2 +1,0 @@
-WARNING  pytest_result_log:plugin.py:122 Start: test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770--200-name]
-WARNING  pytest_result_log:plugin.py:128 End: test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770--200-name]

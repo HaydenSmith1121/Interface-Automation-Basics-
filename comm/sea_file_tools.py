@@ -87,10 +87,12 @@ def sea_file_1_5(token, repo_id, repo_name):
     """
     # 修改资料库名字接口
     url = modify_delete_add_path_5_6_7_8(5, repo_id)
+    print("______"*50)
+    print(url)
     # 要传的参数，token
-    headers = {"authorization": "token " + token}
+    headers = {"Authorization": "Token " + token}
     # 要传的参数，新的资料库名字
-    body = {"name": repo_name}
+    body = {"repo_name": repo_name}
     # 返回响应对象
     response = requests.post(url=url, headers=headers, data=body)
     return response

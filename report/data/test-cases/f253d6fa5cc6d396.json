@@ -1,0 +1,131 @@
+{
+  "uid" : "f253d6fa5cc6d396",
+  "name" : "test_sea_file_login[seafile@admin.com-admin666-400-Unable to login with provided credentials]",
+  "fullName" : "testcase.test07#test_sea_file_login",
+  "historyId" : "71cdd4a3a80bd219c389517e1589c2ca",
+  "time" : {
+    "start" : 1749862960349,
+    "stop" : 1749862960364,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "接口1（登录接口）的用例",
+      "time" : {
+        "start" : 1749862960349,
+        "stop" : 1749862960364,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb20ff9373ce000d",
+        "name" : "步骤01",
+        "source" : "bb20ff9373ce000d.attach",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "587fbc971787ab7a",
+        "name" : "步骤02",
+        "source" : "587fbc971787ab7a.attach",
+        "type" : "text/plain",
+        "size" : 52
+      }, {
+        "uid" : "164f251a557fa",
+        "name" : "步骤03",
+        "source" : "164f251a557fa.attach",
+        "type" : "text/plain",
+        "size" : 33
+      }, {
+        "uid" : "1a5fd46bf6cb924d",
+        "name" : "步骤04",
+        "source" : "1a5fd46bf6cb924d.attach",
+        "type" : "text/plain",
+        "size" : 33
+      } ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'seafile@admin.com'"
+      }, {
+        "name" : "password",
+        "value" : "'admin666'"
+      }, {
+        "name" : "code",
+        "value" : "'400'"
+      }, {
+        "name" : "msg",
+        "value" : "'Unable to login with provided credentials'"
+      } ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3a2db684dc2a22d",
+      "name" : "log",
+      "source" : "3a2db684dc2a22d.txt",
+      "type" : "text/plain",
+      "size" : 321
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test07"
+  }, {
+    "name" : "host",
+    "value" : "stu001243"
+  }, {
+    "name" : "thread",
+    "value" : "3420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test07"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'400'"
+  }, {
+    "name" : "msg",
+    "value" : "'Unable to login with provided credentials'"
+  }, {
+    "name" : "password",
+    "value" : "'admin666'"
+  }, {
+    "name" : "username",
+    "value" : "'seafile@admin.com'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f253d6fa5cc6d396.json",
+  "parameterValues" : [ "'400'", "'Unable to login with provided credentials'", "'admin666'", "'seafile@admin.com'" ]
+}

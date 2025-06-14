@@ -1,2 +1,0 @@
-WARNING  pytest_result_log:plugin.py:122 Start: test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin666-400-Unable to login with provided credentials]
-WARNING  pytest_result_log:plugin.py:128 End: test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin666-400-Unable to login with provided credentials]

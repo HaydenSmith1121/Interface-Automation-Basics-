@@ -1,0 +1,131 @@
+{
+  "uid" : "6cdbf253693dec52",
+  "name" : "test_sea_file_login[seafile@admin.com-admin-200-token]",
+  "fullName" : "testcase.test07#test_sea_file_login",
+  "historyId" : "2ec0db76bce2f94134b506e409522e53",
+  "time" : {
+    "start" : 1749862960309,
+    "stop" : 1749862960328,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "接口1（登录接口）的用例",
+      "time" : {
+        "start" : 1749862960309,
+        "stop" : 1749862960327,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "556e8b3144ea3ac2",
+        "name" : "步骤01",
+        "source" : "556e8b3144ea3ac2.attach",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "e0f2f514748a5170",
+        "name" : "步骤02",
+        "source" : "e0f2f514748a5170.attach",
+        "type" : "text/plain",
+        "size" : 52
+      }, {
+        "uid" : "1c7c01d58c4a0882",
+        "name" : "步骤03",
+        "source" : "1c7c01d58c4a0882.attach",
+        "type" : "text/plain",
+        "size" : 33
+      }, {
+        "uid" : "703ebcbfa2799745",
+        "name" : "步骤04",
+        "source" : "703ebcbfa2799745.attach",
+        "type" : "text/plain",
+        "size" : 33
+      } ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'seafile@admin.com'"
+      }, {
+        "name" : "password",
+        "value" : "'admin'"
+      }, {
+        "name" : "code",
+        "value" : "'200'"
+      }, {
+        "name" : "msg",
+        "value" : "'token'"
+      } ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d4071bc266a168f0",
+      "name" : "log",
+      "source" : "d4071bc266a168f0.txt",
+      "type" : "text/plain",
+      "size" : 244
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test07"
+  }, {
+    "name" : "host",
+    "value" : "stu001243"
+  }, {
+    "name" : "thread",
+    "value" : "3420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test07"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'200'"
+  }, {
+    "name" : "msg",
+    "value" : "'token'"
+  }, {
+    "name" : "password",
+    "value" : "'admin'"
+  }, {
+    "name" : "username",
+    "value" : "'seafile@admin.com'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6cdbf253693dec52.json",
+  "parameterValues" : [ "'200'", "'token'", "'admin'", "'seafile@admin.com'" ]
+}

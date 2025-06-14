@@ -1,0 +1,91 @@
+{
+  "uid" : "784d4f4040ee3b69",
+  "name" : "test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1-59bbf7e9-2748-41ce-a9a9-1e8d44360484--200-success]",
+  "fullName" : "testcase.test07#test_sea_file_1_5",
+  "historyId" : "cd2c7644f74067cb7d5d4952f4a0b71f",
+  "time" : {
+    "start" : 1749862961475,
+    "stop" : 1749862961484,
+    "duration" : 9
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 401 == 200\n +  where 401 = <Response [401]>.status_code",
+  "statusTrace" : "token = '8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1'\nrepo_id = '59bbf7e9-2748-41ce-a9a9-1e8d44360484', repo_name = '', code = '200'\nmsg = 'success'\n\n    @pytest.mark.parametrize([\"token\", \"repo_id\", \"repo_name\", \"code\", \"msg\"], get_csv_data(\"./data/05seafile.csv\"))\n    def test_sea_file_1_5(token, repo_id, repo_name, code, msg):\n        response = sea_file_1_5(token, repo_id, repo_name)\n        a = eval(code)\n>       assert response.status_code == a\nE       assert 401 == 200\nE        +  where 401 = <Response [401]>.status_code\n\ntestcase\\test07.py:75: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 401 == 200\n +  where 401 = <Response [401]>.status_code",
+    "statusTrace" : "token = '8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1'\nrepo_id = '59bbf7e9-2748-41ce-a9a9-1e8d44360484', repo_name = '', code = '200'\nmsg = 'success'\n\n    @pytest.mark.parametrize([\"token\", \"repo_id\", \"repo_name\", \"code\", \"msg\"], get_csv_data(\"./data/05seafile.csv\"))\n    def test_sea_file_1_5(token, repo_id, repo_name, code, msg):\n        response = sea_file_1_5(token, repo_id, repo_name)\n        a = eval(code)\n>       assert response.status_code == a\nE       assert 401 == 200\nE        +  where 401 = <Response [401]>.status_code\n\ntestcase\\test07.py:75: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4cf72ea7ab84f40",
+      "name" : "log",
+      "source" : "4cf72ea7ab84f40.txt",
+      "type" : "text/plain",
+      "size" : 355
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test07"
+  }, {
+    "name" : "host",
+    "value" : "stu001243"
+  }, {
+    "name" : "thread",
+    "value" : "3420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test07"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'200'"
+  }, {
+    "name" : "msg",
+    "value" : "'success'"
+  }, {
+    "name" : "repo_id",
+    "value" : "'59bbf7e9-2748-41ce-a9a9-1e8d44360484'"
+  }, {
+    "name" : "repo_name",
+    "value" : "''"
+  }, {
+    "name" : "token",
+    "value" : "'8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "784d4f4040ee3b69.json",
+  "parameterValues" : [ "'200'", "'success'", "'59bbf7e9-2748-41ce-a9a9-1e8d44360484'", "''", "'8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1'" ]
+}

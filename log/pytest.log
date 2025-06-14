@@ -1,131 +1,58 @@
-WARNING  2025-06-13 20:36:46 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin-200-token]
-INFO     2025-06-13 20:36:47 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin-200-token]): 
-WARNING  2025-06-13 20:36:47 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin-200-token]
-WARNING  2025-06-13 20:36:47 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_login[seafile@admin.com666-admin-400-Unable to login with provided credentials]
-INFO     2025-06-13 20:36:47 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_login[seafile@admin.com666-admin-400-Unable to login with provided credentials]): 
-WARNING  2025-06-13 20:36:47 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_login[seafile@admin.com666-admin-400-Unable to login with provided credentials]
-WARNING  2025-06-13 20:36:47 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin666-400-Unable to login with provided credentials]
-INFO     2025-06-13 20:36:47 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin666-400-Unable to login with provided credentials]): 
-WARNING  2025-06-13 20:36:47 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_login[seafile@admin.com-admin666-400-Unable to login with provided credentials]
-WARNING  2025-06-13 20:36:47 [pytest_result_log:122] : -----Start: test_case/test_07.py::test_sea_file_login[ -admin-400-username]-----
-INFO     2025-06-13 20:36:47 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_login[ -admin-400-username]): 
-WARNING  2025-06-13 20:36:47 [pytest_result_log:128] : ------End: test_case/test_07.py::test_sea_file_login[ -admin-400-username]------
-WARNING  2025-06-13 20:36:47 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_login[seafile@admin.com- -400-password]
-INFO     2025-06-13 20:36:47 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_login[seafile@admin.com- -400-password]): 
-WARNING  2025-06-13 20:36:47 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_login[seafile@admin.com- -400-password]
-WARNING  2025-06-13 20:36:47 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-name]
-INFO     2025-06-13 20:36:47 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-name]): 
-WARNING  2025-06-13 20:36:47 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-name]
-WARNING  2025-06-13 20:36:47 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-401-Invalid token]
-INFO     2025-06-13 20:36:47 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-401-Invalid token]): 
-WARNING  2025-06-13 20:36:47 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-401-Invalid token]
-WARNING  2025-06-13 20:36:47 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_info[-401-Invalid token header. No credentials provided.]
-INFO     2025-06-13 20:36:47 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_info[-401-Invalid token header. No credentials provided.]): 
-WARNING  2025-06-13 20:36:47 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_info[-401-Invalid token header. No credentials provided.]
-WARNING  2025-06-13 20:36:47 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-a1-200-name]
-INFO     2025-06-13 20:36:47 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-a1-200-name]): 
-WARNING  2025-06-13 20:36:47 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-a1-200-name]
-WARNING  2025-06-13 20:36:47 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-a2-401-Invalid token]
-INFO     2025-06-13 20:36:47 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-a2-401-Invalid token]): 
-WARNING  2025-06-13 20:36:47 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-a2-401-Invalid token]
-WARNING  2025-06-13 20:36:47 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_add_repo[-a3-401-Invalid token header. No credentials provided.]
-INFO     2025-06-13 20:36:47 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_add_repo[-a3-401-Invalid token header. No credentials provided.]): 
-WARNING  2025-06-13 20:36:47 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_add_repo[-a3-401-Invalid token header. No credentials provided.]
-WARNING  2025-06-13 20:36:47 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-]
-INFO     2025-06-13 20:36:47 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-]): 
-WARNING  2025-06-13 20:36:47 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-]
-WARNING  2025-06-13 20:36:47 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-401-]
-INFO     2025-06-13 20:36:47 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-401-]): 
-WARNING  2025-06-13 20:36:47 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-401-]
-WARNING  2025-06-13 20:36:47 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_get_repo_info[-401-Invalid token header. No credentials provided.]
-INFO     2025-06-13 20:36:47 [pytest_result_log:190] : test status is PASSED (test_case/test_07.py::test_sea_file_get_repo_info[-401-Invalid token header. No credentials provided.]): 
-WARNING  2025-06-13 20:36:47 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_get_repo_info[-401-Invalid token header. No credentials provided.]
-WARNING  2025-06-13 20:36:47 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770-1-200-success]
-ERROR    2025-06-13 20:36:48 [pytest_result_log:190] : test status is FAILED (test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770-1-200-success]): AssertionError
-INFO     2025-06-13 20:36:48 [pytest_result_log:194] : test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770-1-200-success] -> token = '8ac00e05a7652b31598a56d764bd5b5f7c45a6ef'
-repo_id = 'ef23029e-eec3-4f87-851a-db54e66b9770', repo_name = '1', code = '200'
-msg = 'success'
-
-    @pytest.mark.parametrize(["token", "repo_id", "repo_name", "code", "msg"], get_csv_data("./data/05seafile.csv"))
-    def test_sea_file_1_5(token, repo_id, repo_name, code, msg):
-        response = sea_file_1_5(token, repo_id, repo_name)
-        a = eval(code)
->       assert response.status_code == a
-E       assert 404 == 200
-E        +  where 404 = <Response [404]>.status_code
-
-test_case\test_07.py:54: AssertionError
-WARNING  2025-06-13 20:36:48 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770-1-200-success]
-WARNING  2025-06-13 20:36:48 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770-255111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success]
-ERROR    2025-06-13 20:36:48 [pytest_result_log:190] : test status is FAILED (test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770-255111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success]): AssertionError
-INFO     2025-06-13 20:36:48 [pytest_result_log:194] : test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770-255111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success] -> token = '8ac00e05a7652b31598a56d764bd5b5f7c45a6ef'
-repo_id = 'ef23029e-eec3-4f87-851a-db54e66b9770'
-repo_name = '255111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111...1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255'
-code = '200', msg = 'success'
-
-    @pytest.mark.parametrize(["token", "repo_id", "repo_name", "code", "msg"], get_csv_data("./data/05seafile.csv"))
-    def test_sea_file_1_5(token, repo_id, repo_name, code, msg):
-        response = sea_file_1_5(token, repo_id, repo_name)
-        a = eval(code)
->       assert response.status_code == a
-E       assert 404 == 200
-E        +  where 404 = <Response [404]>.status_code
-
-test_case\test_07.py:54: AssertionError
-WARNING  2025-06-13 20:36:48 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770-255111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success]
-WARNING  2025-06-13 20:36:48 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770--200-name]
-ERROR    2025-06-13 20:36:48 [pytest_result_log:190] : test status is FAILED (test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770--200-name]): AssertionError
-INFO     2025-06-13 20:36:48 [pytest_result_log:194] : test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770--200-name] -> token = '8ac00e05a7652b31598a56d764bd5b5f7c45a6ef'
-repo_id = 'ef23029e-eec3-4f87-851a-db54e66b9770', repo_name = '', code = '200'
-msg = 'name'
-
-    @pytest.mark.parametrize(["token", "repo_id", "repo_name", "code", "msg"], get_csv_data("./data/05seafile.csv"))
-    def test_sea_file_1_5(token, repo_id, repo_name, code, msg):
-        response = sea_file_1_5(token, repo_id, repo_name)
-        a = eval(code)
->       assert response.status_code == a
-E       assert 404 == 200
-E        +  where 404 = <Response [404]>.status_code
-
-test_case\test_07.py:54: AssertionError
-WARNING  2025-06-13 20:36:48 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-ef23029e-eec3-4f87-851a-db54e66b9770--200-name]
-WARNING  2025-06-13 20:36:48 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-ef23029e-eec3-4f87-851a-db54e66b9770-1-200-token]
-ERROR    2025-06-13 20:36:48 [pytest_result_log:190] : test status is FAILED (test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-ef23029e-eec3-4f87-851a-db54e66b9770-1-200-token]): AssertionError
-INFO     2025-06-13 20:36:48 [pytest_result_log:194] : test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-ef23029e-eec3-4f87-851a-db54e66b9770-1-200-token] -> token = '8ac00e05a7652b31598a56d764bd5b5f7c45a6e'
-repo_id = 'ef23029e-eec3-4f87-851a-db54e66b9770', repo_name = '1', code = '200'
-msg = 'token'
-
-    @pytest.mark.parametrize(["token", "repo_id", "repo_name", "code", "msg"], get_csv_data("./data/05seafile.csv"))
-    def test_sea_file_1_5(token, repo_id, repo_name, code, msg):
-        response = sea_file_1_5(token, repo_id, repo_name)
-        a = eval(code)
->       assert response.status_code == a
-E       assert 401 == 200
-E        +  where 401 = <Response [401]>.status_code
-
-test_case\test_07.py:54: AssertionError
-WARNING  2025-06-13 20:36:48 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-ef23029e-eec3-4f87-851a-db54e66b9770-1-200-token]
-WARNING  2025-06-13 20:36:48 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-ef23029e-eec3-4f87-851a-db54e66b9770-255111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success]
-ERROR    2025-06-13 20:36:48 [pytest_result_log:190] : test status is FAILED (test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-ef23029e-eec3-4f87-851a-db54e66b9770-255111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success]): AssertionError
-INFO     2025-06-13 20:36:48 [pytest_result_log:194] : test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-ef23029e-eec3-4f87-851a-db54e66b9770-255111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success] -> token = '8ac00e05a7652b31598a56d764bd5b5f7c45a6e'
-repo_id = 'ef23029e-eec3-4f87-851a-db54e66b9770'
-repo_name = '255111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111...1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255'
-code = '200', msg = 'success'
-
-    @pytest.mark.parametrize(["token", "repo_id", "repo_name", "code", "msg"], get_csv_data("./data/05seafile.csv"))
-    def test_sea_file_1_5(token, repo_id, repo_name, code, msg):
-        response = sea_file_1_5(token, repo_id, repo_name)
-        a = eval(code)
->       assert response.status_code == a
-E       assert 401 == 200
-E        +  where 401 = <Response [401]>.status_code
-
-test_case\test_07.py:54: AssertionError
-WARNING  2025-06-13 20:36:48 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-ef23029e-eec3-4f87-851a-db54e66b9770-255111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success]
-WARNING  2025-06-13 20:36:48 [pytest_result_log:122] : Start: test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-ef23029e-eec3-4f87-851a-db54e66b9770--200-success]
-ERROR    2025-06-13 20:36:48 [pytest_result_log:190] : test status is FAILED (test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-ef23029e-eec3-4f87-851a-db54e66b9770--200-success]): AssertionError
-INFO     2025-06-13 20:36:48 [pytest_result_log:194] : test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-ef23029e-eec3-4f87-851a-db54e66b9770--200-success] -> token = '8ac00e05a7652b31598a56d764bd5b5f7c45a6e'
-repo_id = 'ef23029e-eec3-4f87-851a-db54e66b9770', repo_name = '', code = '200'
+WARNING  2025-06-14 09:02:40 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_login[seafile@admin.com-admin-200-token]
+INFO     2025-06-14 09:02:40 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_login[seafile@admin.com-admin-200-token]): 
+WARNING  2025-06-14 09:02:40 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_login[seafile@admin.com-admin-200-token]-
+WARNING  2025-06-14 09:02:40 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_login[seafile@admin.com666-admin-400-Unable to login with provided credentials]
+INFO     2025-06-14 09:02:40 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_login[seafile@admin.com666-admin-400-Unable to login with provided credentials]): 
+WARNING  2025-06-14 09:02:40 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_login[seafile@admin.com666-admin-400-Unable to login with provided credentials]
+WARNING  2025-06-14 09:02:40 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_login[seafile@admin.com-admin666-400-Unable to login with provided credentials]
+INFO     2025-06-14 09:02:40 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_login[seafile@admin.com-admin666-400-Unable to login with provided credentials]): 
+WARNING  2025-06-14 09:02:40 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_login[seafile@admin.com-admin666-400-Unable to login with provided credentials]
+WARNING  2025-06-14 09:02:40 [pytest_result_log:122] : ------Start: testcase/test07.py::test_sea_file_login[ -admin-400-username]------
+INFO     2025-06-14 09:02:40 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_login[ -admin-400-username]): 
+WARNING  2025-06-14 09:02:40 [pytest_result_log:128] : -------End: testcase/test07.py::test_sea_file_login[ -admin-400-username]-------
+WARNING  2025-06-14 09:02:40 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_login[seafile@admin.com- -400-password]
+INFO     2025-06-14 09:02:40 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_login[seafile@admin.com- -400-password]): 
+WARNING  2025-06-14 09:02:40 [pytest_result_log:128] : -End: testcase/test07.py::test_sea_file_login[seafile@admin.com- -400-password]-
+WARNING  2025-06-14 09:02:40 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-name]
+INFO     2025-06-14 09:02:40 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-name]): 
+WARNING  2025-06-14 09:02:40 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-name]
+WARNING  2025-06-14 09:02:40 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-401-Invalid token]
+INFO     2025-06-14 09:02:40 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-401-Invalid token]): 
+WARNING  2025-06-14 09:02:40 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-401-Invalid token]
+WARNING  2025-06-14 09:02:40 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_info[-401-Invalid token header. No credentials provided.]
+INFO     2025-06-14 09:02:40 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_info[-401-Invalid token header. No credentials provided.]): 
+WARNING  2025-06-14 09:02:40 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_info[-401-Invalid token header. No credentials provided.]
+WARNING  2025-06-14 09:02:40 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-a1-200-name]
+INFO     2025-06-14 09:02:40 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-a1-200-name]): 
+WARNING  2025-06-14 09:02:40 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-a1-200-name]
+WARNING  2025-06-14 09:02:40 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-a2-401-Invalid token]
+INFO     2025-06-14 09:02:40 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-a2-401-Invalid token]): 
+WARNING  2025-06-14 09:02:40 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_add_repo[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef130-a2-401-Invalid token]
+WARNING  2025-06-14 09:02:41 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_add_repo[-a3-401-Invalid token header. No credentials provided.]
+INFO     2025-06-14 09:02:41 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_add_repo[-a3-401-Invalid token header. No credentials provided.]): 
+WARNING  2025-06-14 09:02:41 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_add_repo[-a3-401-Invalid token header. No credentials provided.]
+WARNING  2025-06-14 09:02:41 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-]
+INFO     2025-06-14 09:02:41 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-]): 
+WARNING  2025-06-14 09:02:41 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-200-]
+WARNING  2025-06-14 09:02:41 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-401-]
+INFO     2025-06-14 09:02:41 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-401-]): 
+WARNING  2025-06-14 09:02:41 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_get_repo_info[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-401-]
+WARNING  2025-06-14 09:02:41 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_get_repo_info[-401-Invalid token header. No credentials provided.]
+INFO     2025-06-14 09:02:41 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_get_repo_info[-401-Invalid token header. No credentials provided.]): 
+WARNING  2025-06-14 09:02:41 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_get_repo_info[-401-Invalid token header. No credentials provided.]
+WARNING  2025-06-14 09:02:41 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-59bbf7e9-2748-41ce-a9a9-1e8d44360484-test130_new-200-success]
+INFO     2025-06-14 09:02:41 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-59bbf7e9-2748-41ce-a9a9-1e8d44360484-test130_new-200-success]): 
+WARNING  2025-06-14 09:02:41 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-59bbf7e9-2748-41ce-a9a9-1e8d44360484-test130_new-200-success]
+WARNING  2025-06-14 09:02:41 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-59bbf7e9-2748-41ce-a9a9-1e8d44360484-111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success]
+INFO     2025-06-14 09:02:41 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-59bbf7e9-2748-41ce-a9a9-1e8d44360484-111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success]): 
+WARNING  2025-06-14 09:02:41 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-59bbf7e9-2748-41ce-a9a9-1e8d44360484-111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success]
+WARNING  2025-06-14 09:02:41 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-59bbf7e9-2748-41ce-a9a9-1e8d44360484--200-success]
+INFO     2025-06-14 09:02:41 [pytest_result_log:190] : test status is PASSED (testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-59bbf7e9-2748-41ce-a9a9-1e8d44360484--200-success]): 
+WARNING  2025-06-14 09:02:41 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef-59bbf7e9-2748-41ce-a9a9-1e8d44360484--200-success]
+WARNING  2025-06-14 09:02:41 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1-59bbf7e9-2748-41ce-a9a9-1e8d44360484-1-200-success]
+ERROR    2025-06-14 09:02:41 [pytest_result_log:190] : test status is FAILED (testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1-59bbf7e9-2748-41ce-a9a9-1e8d44360484-1-200-success]): AssertionError
+INFO     2025-06-14 09:02:41 [pytest_result_log:194] : testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1-59bbf7e9-2748-41ce-a9a9-1e8d44360484-1-200-success] -> token = '8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1'
+repo_id = '59bbf7e9-2748-41ce-a9a9-1e8d44360484', repo_name = '1', code = '200'
 msg = 'success'
 
     @pytest.mark.parametrize(["token", "repo_id", "repo_name", "code", "msg"], get_csv_data("./data/05seafile.csv"))
@@ -136,5 +63,38 @@ msg = 'success'
 E       assert 401 == 200
 E        +  where 401 = <Response [401]>.status_code
 
-test_case\test_07.py:54: AssertionError
-WARNING  2025-06-13 20:36:48 [pytest_result_log:128] : End: test_case/test_07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6e-ef23029e-eec3-4f87-851a-db54e66b9770--200-success]
+testcase\test07.py:75: AssertionError
+WARNING  2025-06-14 09:02:41 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1-59bbf7e9-2748-41ce-a9a9-1e8d44360484-1-200-success]
+WARNING  2025-06-14 09:02:41 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1-59bbf7e9-2748-41ce-a9a9-1e8d44360484-111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success]
+ERROR    2025-06-14 09:02:41 [pytest_result_log:190] : test status is FAILED (testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1-59bbf7e9-2748-41ce-a9a9-1e8d44360484-111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success]): AssertionError
+INFO     2025-06-14 09:02:41 [pytest_result_log:194] : testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1-59bbf7e9-2748-41ce-a9a9-1e8d44360484-111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success] -> token = '8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1'
+repo_id = '59bbf7e9-2748-41ce-a9a9-1e8d44360484'
+repo_name = '111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111...1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255'
+code = '200', msg = 'success'
+
+    @pytest.mark.parametrize(["token", "repo_id", "repo_name", "code", "msg"], get_csv_data("./data/05seafile.csv"))
+    def test_sea_file_1_5(token, repo_id, repo_name, code, msg):
+        response = sea_file_1_5(token, repo_id, repo_name)
+        a = eval(code)
+>       assert response.status_code == a
+E       assert 401 == 200
+E        +  where 401 = <Response [401]>.status_code
+
+testcase\test07.py:75: AssertionError
+WARNING  2025-06-14 09:02:41 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1-59bbf7e9-2748-41ce-a9a9-1e8d44360484-111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111255-200-success]
+WARNING  2025-06-14 09:02:41 [pytest_result_log:122] : Start: testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1-59bbf7e9-2748-41ce-a9a9-1e8d44360484--200-success]
+ERROR    2025-06-14 09:02:41 [pytest_result_log:190] : test status is FAILED (testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1-59bbf7e9-2748-41ce-a9a9-1e8d44360484--200-success]): AssertionError
+INFO     2025-06-14 09:02:41 [pytest_result_log:194] : testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1-59bbf7e9-2748-41ce-a9a9-1e8d44360484--200-success] -> token = '8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1'
+repo_id = '59bbf7e9-2748-41ce-a9a9-1e8d44360484', repo_name = '', code = '200'
+msg = 'success'
+
+    @pytest.mark.parametrize(["token", "repo_id", "repo_name", "code", "msg"], get_csv_data("./data/05seafile.csv"))
+    def test_sea_file_1_5(token, repo_id, repo_name, code, msg):
+        response = sea_file_1_5(token, repo_id, repo_name)
+        a = eval(code)
+>       assert response.status_code == a
+E       assert 401 == 200
+E        +  where 401 = <Response [401]>.status_code
+
+testcase\test07.py:75: AssertionError
+WARNING  2025-06-14 09:02:41 [pytest_result_log:128] : End: testcase/test07.py::test_sea_file_1_5[8ac00e05a7652b31598a56d764bd5b5f7c45a6ef1-59bbf7e9-2748-41ce-a9a9-1e8d44360484--200-success]
