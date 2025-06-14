@@ -1,5 +1,3 @@
-from comm.mysql_tools import *
-
 mysql = MysqlTools('192.168.79.132', 3306,
                    'root', '123456',
                    'scott')
