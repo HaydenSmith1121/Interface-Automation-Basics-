@@ -7,7 +7,7 @@ def get_mysql_config():
     config = configparser.ConfigParser()
 
     # 配置文件的路径
-    mysql_config_path = os.path.dirname(__file__)+"\\mysql_config.ini"
+    mysql_config_path = os.path.dirname(__file__) + "\\mysql_config.ini"
 
     # 读取ini文件
     config.read(mysql_config_path, encoding="utf-8")

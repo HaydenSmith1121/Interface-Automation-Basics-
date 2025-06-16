@@ -1,8 +1,9 @@
 from mysql_tools.mysql_tools import *
 
-sql = "select * from login order by '编号' asc;"
+sql = 'select * from emp'
 
 result = execute_sql(sql)
 
+# print(result)
 for i in result:
     print(i)
